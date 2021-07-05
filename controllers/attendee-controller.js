@@ -29,7 +29,7 @@ const SignUp = async (req, res, next) => {
               .then((result) => {
                 console.log(result);
                 res.status(200).json({
-                  message: 'Successfully Registered',
+                  message: 'Step 1 Completed. Please complete step 2 by adding payment details...',
                 });
               })
               .catch((err) => {
