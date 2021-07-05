@@ -26,7 +26,7 @@ const SignUp = async (req, res, next) => {
               researchPaper: {
                 title: title,
                 date: date,
-                url: 'https://firebasestorage.googleapis.com/v0/b/icaf-project.appspot.com/o/documents%2FY3.S2.WE.SE.06.01.pdf?alt=media&token=ad1151b0-9742-4a2f-af0c-f2282f81a4f2',
+                url: url,
               },
             });
             researcher
